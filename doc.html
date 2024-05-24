@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docs Page</title>
+    <style>
+        body {
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+            font-family: Arial, sans-serif; /* Use a common font */
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column; /* Stack items vertically */
+            align-items: center; /* Center items horizontally */
+            padding: 20px;
+        }
+
+        .iframe-container {
+            width: 100%;
+            max-width: 800px; /* Limit max width for better readability */
+            height: 60vh; /* 60% of viewport height */
+            margin-bottom: 20px; /* Add some bottom margin for spacing */
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%; /* Fill iframe container height */
+            border: none; /* Remove iframe border */
+        }
+
+        @media screen and (min-width: 768px) {
+            .iframe-container {
+                height: 80vh; /* 80% of viewport height on larger screens */
+            }
+        }
+
+        /* Style for the navigation tabs */
+        .nav-tab {
+            padding: 10px 20px;
+            margin: 0 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .nav-tab:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <br>
+    <a href="home.html" class="nav-tab">Go to Home</a>
+    <a href="form.html" class="nav-tab">Go to Form</a>
+    <a href="https://docs.google.com/document/d/1PfpKkFobYratuPWuEZspeqRypl7rtWmLewU5mS-U22g/edit?usp=sharing.html" class="nav-tab">May 2024 Attacks</a>
+    <a href="https://docs.google.com/document/d/1ClBJuD_kN6xKs34HrCL1KFlZfy2ODZYV1oNolJpAD7c/edit?usp=sharing" class="nav-tab">June 2024 Attacks</a>
+    <a href="https://docs.google.com/document/d/1DV286PH4FQ4KKiOe_vgk_voglsEptfQObHCG2eihplw/edit?usp=sharing" class="nav-tab">July 2024 Attacks</a>
+    <a href="https://docs.google.com/document/d/1yvZr9BlYcL-3Xd6nmpKHmMbt9YLlt27_Hn1qUnUd3Hc/edit?usp=sharing" class="nav-tab">August 2024 Attacks</a>
+    <br>
+    <br>
+    <br>
+    <a href="https://docs.google.com/document/d/10vrM3Zm_xtbIsqw24NHLCrwuCihWZ5YvhORmk3cRouo/edit?usp=sharing" class="nav-tab">September 2024 Attacks</a>
+    <a href="https://docs.google.com/document/d/1Q2Dqx6RBjVxmaHsFa8KdIquftUGSRnrsVXKTt6EqcdQ/edit?usp=sharing" class="nav-tab">October 2024 Attacks</a>
+    <a href="https://docs.google.com/document/d/15KskAyktBuGOxchqCEYcwppwBbg--QN-__iK-4LEhHw/edit?usp=sharing" class="nav-tab">November 2024 Attacks</a>
+    <a href="https://docs.google.com/document/d/1iAcFvql5wzVo_ErCqrZFmRoWJum1oQkgz4uSdhF7rYo/edit?usp=sharing" class="nav-tab">December 2024 Attacks</a>
+
+    <h1>Dashboard</h1>
+    
+    <div class="container">
+        <div class="iframe-container">
+            <iframe src="https://docs.google.com/document/d/1e1MJOmmatIrIbPPvXiYQ_5WWTlQqjck-_y12SinNKy0/edit?usp=sharing"></iframe>
+        </div>
+    </div>
+</body>
+</html>
